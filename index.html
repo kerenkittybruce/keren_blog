@@ -20,8 +20,13 @@
   </head>
   <body>
     <!-- Navigation Bar -->
-    <nav class="my-nav navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#about">keren .</a>
+    <nav class="my-nav navbar fixed-top navbar-expand-lg navbar-dark">
+      <a
+        class="navbar-brand"
+        href="#about"
+        style="text-decoration: none; color: whitesmoke"
+        >keren .</a
+      >
       <button
         class="navbar-toggler"
         type="button"
@@ -42,6 +47,33 @@
         </div>
       </div>
     </nav>
+
+    <!-- Content -->
+
+    <!-- Home / Landing Page -->
+    <section id="home" class="container container-fluid">
+      <div class="home-img container container-fluid">
+        <img
+          class="img-fluid"
+          src="/assets/images/girl.png"
+          style="
+            width: 30%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          "
+        />
+      </div>
+      <div class="home-title container text-center">
+        <h1 class="fs-1 text-white fw-bolder">Kitty's Den</h1>
+        <p class="fs-2 fw-bold text-white">
+          Welcome to
+          <span style="color: rgb(255, 0, 0)"> my lair </span>
+          ! 💖💖
+        </p>
+      </div>
+    </section>
+
     <!-- JQuery and Javascript script files -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

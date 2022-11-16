@@ -1,3 +1,14 @@
+body {
+  background-image: url(/assets/images/chiara-polo-6x8mBPAIBrk-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: cover;
+}
+
 .my-nav {
   color: whitesmoke;
+}
+
+.home-img {
+  margin-top: 10%;
 }
