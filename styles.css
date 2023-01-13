@@ -1,20 +1,45 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: monospace;
+}
+
 body {
   background-image: url(/assets/images/bg.jpg);
   background-repeat: no-repeat;
-  background-attachment: local;
+  background-attachment: fixed;
   background-size: cover;
-  font-family:monospace;
 }
 
 .my-nav {
   color: whitesmoke;
+  text-align: right;
+}
+
+.home-pg {
+  margin-top: 5%;
 }
 
 .home-img {
-  margin-top: 8%;
+  margin-top: 4%;
+  width: 80%;
 }
 
-.home-title{
+.home-title {
   border-radius: 8px;
-  margin-top: -5%;
+  margin-top: -6%;
+}
+
+/* ----- Post One ----- */
+
+.post-01 {
+  margin: 3%;
+  padding: 4%;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
 }

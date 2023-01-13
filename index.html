@@ -19,45 +19,48 @@
     <title>Kitty's Blog</title>
   </head>
   <body>
-    <!-- Navigation Bar -->
-    <nav class="my-nav navbar fixed-top navbar-expand-lg navbar-dark">
-      <a
-        class="navbar-brand"
-        href="#about"
-        style="text-decoration: none; color: whitesmoke"
-        >keren .</a
-      >
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link" href="#home">Home</a>
-          <a class="nav-item nav-link" href="#posts">My Posts</a>
-          <a class="nav-item nav-link" href="#about">About Me</a>
-          <a class="nav-item nav-link" href="#contact">Contact Me</a>
+    <section id="home" class="home-pg container container-fluid">
+      <!-- Navigation Bar -->
+      <nav class="my-nav navbar fixed-top navbar-expand-lg navbar-dark">
+        <a
+          class="navbar-brand"
+          href="#home"
+          style="text-decoration: none; color: whitesmoke"
+          >keren .</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-flex justify-content-center"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#home">Home</a>
+            <a class="nav-item nav-link" href="#posts">My Post</a>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
 
-    <!-- Content -->
+      <br />
 
-    <!-- Home / Landing Page -->
-    <section id="home" class="container container-fluid">
-      <div class="home-img container container-fluid">
+      <!-- Content -->
+
+      <!-- Home / Landing Page -->
+      <div class="container container-fluid">
         <img
-          class="img-fluid"
+          class="img-fluid home-img"
           src="/assets/images/tear.png"
           style="
-            width: 50%;
+            width: 60%;
             display: block;
             margin-left: auto;
             margin-right: auto;
@@ -67,6 +70,61 @@
       <div class="home-title container text-center bg-light">
         <h1 class="fs-1 text-black fw-bolder">Kitty's Den</h1>
         <p class="fw-bolder text-black">🖤🖤 Welcome to my lair ! 🖤🖤</p>
+      </div>
+    </section>
+
+    <br />
+    <hr />
+    <br />
+
+    <!-- Blog Posts -->
+
+    <!-- Post One -->
+    <section id="posts" class="posts">
+      <div class="container container-fluid">
+        <div class="post-01 text-center">
+          <div class="post-title text-white fw-bold">
+            <h1>5 Easy Ways To Ground Yourself</h1>
+            <br />
+            <p>
+              It is common for us to experience stress when things don't go our
+              way, and usually it builds up in such a way that we feel
+              overwhelmed .
+              <br />It is important for us to maintain a healthy positive
+              attitude, mindfulness and resilience .
+            </p>
+            <br />
+            <p>
+              Below are some of the ways you can calm yourself down when you're
+              feeling overwhelmed .
+            </p>
+          </div>
+          <ul class="list-group ground-list">
+            <li class="list-group-item">
+              Perform various breathing exercises such as taking up to ten deep
+              and slow breaths .
+            </li>
+            <br />
+            <li class="list-group-item">
+              Always speak towards yourself in a positive, compassionate tone .
+            </li>
+            <br />
+            <li class="list-group-item">
+              Pray, meditate and/or practise yoga to connect to your spiritual
+              self .
+            </li>
+            <br />
+            <li class="list-group-item">
+              Find your passion and transform it into a fun hobby, or even a
+              source of income .
+            </li>
+            <br />
+            <li class="list-group-item">
+              Spend time in positive environments with people who care about you
+              .
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
 
